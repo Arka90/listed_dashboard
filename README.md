@@ -1,2 +1,2 @@
 # Hosted Link
-https://leafy-biscuit-3427ec.netlify.app/register
+https://leafy-biscuit-3427ec.netlify.app
