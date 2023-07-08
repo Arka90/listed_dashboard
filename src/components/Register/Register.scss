@@ -1,0 +1,153 @@
+.auth-contianer {
+  display: flex;
+
+  height: 100vh;
+  .auth-logo {
+    background-color: #000;
+    color: #fff;
+    font-size: 12rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  .auth-form-container {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    .auth-header {
+      font-size: 3.2rem;
+    }
+    .auth-text {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+    .auth-social {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .auth-social-item {
+      width: 48%;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      color: #858585;
+      background: #fff;
+      border-radius: 1rem;
+      padding: 4px 8px;
+      cursor: pointer;
+      margin-bottom: 2rem;
+
+      img {
+        width: 1rem;
+        margin-right: 5px;
+      }
+    }
+    .form {
+      background-color: #fff;
+      border-radius: 2rem;
+      padding: 1.5rem;
+
+      .auth-from-input {
+        margin-bottom: 1.5rem;
+        .label {
+          font-size: 1.2rem;
+          margin-bottom: 2px;
+          margin-left: 2px;
+        }
+        input {
+          border: none;
+          outline: none;
+          background-color: #eaeaea;
+          border-radius: 8px;
+          padding: 4.8px;
+          font-size: 1.5rem;
+          width: 100%;
+        }
+      }
+      .password-reset {
+        p {
+          margin-left: 4px;
+          margin-bottom: 10px;
+          a {
+            text-decoration: none;
+            font-size: 1.2rem;
+          }
+        }
+      }
+      .auth-button {
+        width: 100%;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        padding: 8px;
+        border-radius: 20px;
+      }
+    }
+    .switch-auth {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      a {
+        text-decoration: none;
+      }
+    }
+    .auth-error {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      color: red;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1470px) {
+  .auth-contianer {
+    .auth-form {
+      width: 40%;
+    }
+  }
+}
+
+@media (max-width: 1130px) {
+  .auth-contianer {
+    .auth-logo {
+      font-size: 8rem;
+    }
+    .auth-form {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .auth-contianer {
+    flex-direction: column;
+    .auth-logo {
+      width: 100%;
+    }
+    .auth-form-container {
+      width: 80%;
+      margin: 2rem auto;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .auth-contianer {
+    flex-direction: column;
+
+    .auth-form-container {
+      width: 100%;
+      margin: 2rem auto;
+    }
+  }
+}

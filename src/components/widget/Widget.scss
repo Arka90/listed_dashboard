@@ -1,0 +1,42 @@
+@import "../../variable";
+
+.widget-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .widget-logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  .widgets {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search-container {
+      background-color: #fff;
+      color: $color-light-grey;
+      padding: 8px;
+      height: 3rem;
+      width: 18rem;
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      img {
+        width: 1.4rem;
+      }
+      input {
+        outline: none;
+        border: none;
+        font-size: 1.4rem;
+      }
+    }
+    .profile_picture {
+      border-radius: 3rem;
+      width: 3rem;
+    }
+  }
+}

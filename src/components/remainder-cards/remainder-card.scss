@@ -1,0 +1,17 @@
+.remainder-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  .remainder-title {
+    color: #666;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  .time,
+  .location {
+    color: #999;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+.statcard-container {
+  width: 25rem;
+  height: 12rem;
+
+  border-radius: 2rem;
+  position: relative;
+
+  .stat-icon {
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+  }
+  .statcard-content {
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+    .statcard-label {
+      font-size: 14px;
+    }
+    .statcard-number {
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+  }
+}

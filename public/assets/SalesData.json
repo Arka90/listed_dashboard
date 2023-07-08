@@ -1,0 +1,53 @@
+[
+  [
+    {
+      "name": "Basic Tees",
+      "percent": 55,
+      "bgColor": "#98D89E"
+    },
+    {
+      "name": "Custom Short Pants",
+      "percent": 31,
+      "bgColor": "#F6DC7D"
+    },
+    {
+      " name": "Super Hoodies",
+      "percent": 14,
+      "bgColor": "#EE8484"
+    }
+  ],
+  [
+    {
+      "name": "Oversized Tees",
+      "percent": 50,
+      "bgColor": "#98D89E"
+    },
+    {
+      "name": "Nike Air Jordan",
+      "percent": 30,
+      "bgColor": "#F6DC7D"
+    },
+    {
+      "name": "Jackets",
+      "percent": 20,
+      "bgColor": "#EE8484"
+    }
+  ],
+  [
+    {
+      "name": "Baggy Jeans",
+      "percent": 20,
+      "bgColor": "#98D89E"
+    },
+    {
+      "name": "Varcity Jacket",
+      "percent": 20,
+      "bgColor": "#F6DC7D"
+    },
+    {
+      " name": "Printed Pants",
+      "percent": 60,
+      "bgColor": "#EE8484"
+    }
+  ]
+]

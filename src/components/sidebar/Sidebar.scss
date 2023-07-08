@@ -1,0 +1,46 @@
+@import "../../variable";
+
+.sidebar {
+  background-color: $color-black;
+  color: $color-white;
+  border-radius: 3rem;
+  width: 20%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+
+  .sidebar__logo {
+    font-size: 3rem;
+  }
+
+  .sidebar__menu {
+    list-style: none;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+
+    .active {
+      font-weight: 700;
+    }
+
+    .sidebar__menu__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4rem;
+      cursor: pointer;
+      .sidebar__icon {
+        width: 2.2rem;
+        margin-right: 1.5rem;
+      }
+    }
+  }
+  .sidebar__footer {
+    font-size: 1.4rem;
+    font-weight: 400;
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
